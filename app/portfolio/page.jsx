@@ -196,6 +196,128 @@ export default function Portfolio() {
         </div>
       </section>
 
+                                                   {/* Professional Experience */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20">
+        <h2 className="text-4xl font-bold text-white mb-12 flex items-center">
+          <span className="w-1 h-10 bg-amber-400 mr-3"></span>
+          Experiência Profissional Completa
+        </h2>
+        <div className="space-y-8">
+          {/* Braskem */}
+          <div className="bg-gradient-to-r from-slate-700 to-slate-800 rounded-lg p-6 border-l-4 border-amber-400">
+            <h3 className="text-2xl font-bold text-white mb-1">Gerente Nacional de Logística</h3>
+            <p className="text-amber-400 font-semibold mb-2">Braskem Indústria Plástica</p>
+            <p className="text-slate-400 mb-4">Março/2020 - Atual</p>
+            <ul className="space-y-2 text-slate-300">
+              <li>✓ Gestão de 3 CDs em 3 regiões com 350+ colaboradores</li>
+              <li>✓ Movimentação de 50 mil toneladas/mês</li>
+              <li>✓ Redução de custos: 15% | Lead time: 25% | Acuracidade: 98%</li>
+              <li>✓ Implantação de Torre de Controle Logística com visibilidade 24/7</li>
+            </ul>
+          </div>
+          {/* Cintitec */}
+          <div className="bg-gradient-to-r from-slate-700 to-slate-800 rounded-lg p-6 border-l-4 border-amber-400">
+            <h3 className="text-2xl font-bold text-white mb-1">Gerente de Logística</h3>
+            <p className="text-amber-400 font-semibold mb-2">Cintitec Ambiental</p>
+            <p className="text-slate-400 mb-4">Fevereiro/2018 - Março/2020</p>
+            <ul className="space-y-2 text-slate-300">
+              <li>✓ Implantação WMS e TMS com acuracidade 98%</li>
+              <li>✓ Redução de custos: 10% | Ganho de 50% em eficiência de entregas</li>
+              <li>✓ Gestão de 172 colaboradores</li>
+              <li>✓ Certificações ISO 9001 e 14001</li>
+            </ul>
+          </div>
+          {/* Kanaflex */}
+          <div className="bg-gradient-to-r from-slate-700 to-slate-800 rounded-lg p-6 border-l-4 border-amber-400">
+            <h3 className="text-2xl font-bold text-white mb-1">Supervisor de Logística</h3>
+            <p className="text-amber-400 font-semibold mb-2">Kanaflex Indústria Plástica</p>
+            <p className="text-slate-400 mb-4">Novembro/2010 - Setembro/2017</p>
+            <ul className="space-y-2 text-slate-300">
+              <li>✓ Redução de 30% no tempo de inatividade operacional</li>
+              <li>✓ Economia anual de R$ 380 mil</li>
+              <li>✓ Melhoria de 20% na rotatividade de estoque</li>
+              <li>✓ Ganho de 12 minutos por pedido processado</li>
+            </ul>
+          </div>
+          {/* REFAL */}
+          <div className="bg-gradient-to-r from-slate-700 to-slate-800 rounded-lg p-6 border-l-4 border-amber-400">
+            <h3 className="text-2xl font-bold text-white mb-1">Coordenador de Expedição</h3>
+            <p className="text-amber-400 font-semibold mb-2">REFAL / BLACK+DECKER</p>
+            <p className="text-slate-400 mb-4">Maio/2007 - Novembro/2010</p>
+            <ul className="space-y-2 text-slate-300">
+              <li>✓ Atendimento a grandes montadoras: Honda, Ford, VW, GM, Scania, Volvo, Toyota</li>
+              <li>✓ Implantação RFID e WMS para rastreabilidade total</li>
+              <li>✓ Reestruturação de armazenagem e embalagens</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Academic Formation */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20 bg-slate-800/50 rounded-xl">
+        <h2 className="text-3xl font-bold text-white mb-12 flex items-center">
+          <span className="w-1 h-8 bg-amber-400 mr-3"></span>
+          Formação Acadêmica
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 MBA em IA & Big Data</p>
+            <p className="text-slate-400 text-sm">2025</p>
+          </div>
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 Pós-Graduação Gestão de Pessoas</p>
+            <p className="text-slate-400 text-sm">2024</p>
+          </div>
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 Pós-Graduação Gestão Ambiental</p>
+            <p className="text-slate-400 text-sm">2019</p>
+          </div>
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 Mestrado em Administração</p>
+            <p className="text-slate-400 text-sm">2017</p>
+          </div>
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 MBA em Estratégia Empresarial</p>
+            <p className="text-slate-400 text-sm">2011</p>
+          </div>
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 Graduação em Logística</p>
+            <p className="text-slate-400 text-sm">2010</p>
+          </div>
+          <div className="bg-slate-700/50 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-white font-bold mb-1">📚 Graduação em Administração</p>
+            <p className="text-slate-400 text-sm">2002</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications */}
+      <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-20">
+        <h2 className="text-3xl font-bold text-white mb-12 flex items-center">
+          <span className="w-1 h-8 bg-amber-400 mr-3"></span>
+          Certificações Profissionais
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-amber-900/30 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-amber-300 font-bold mb-1">🏆 APICS - PIM</p>
+            <p className="text-slate-400 text-sm">Production and Inventory Management (2019)</p>
+          </div>
+          <div className="bg-amber-900/30 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-amber-300 font-bold mb-1">🏆 Auditor ISO</p>
+            <p className="text-slate-400 text-sm">ISO 9001, 14001, IATF 16949 (2023)</p>
+          </div>
+          <div className="bg-amber-900/30 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-amber-300 font-bold mb-1">🏆 BI Intelligence</p>
+            <p className="text-slate-400 text-sm">Power BI & Análise de Dados (2024)</p>
+          </div>
+          <div className="bg-amber-900/30 rounded-lg p-4 border-l-4 border-amber-400">
+            <p className="text-amber-300 font-bold mb-1">🏆 FMEA</p>
+            <p className="text-slate-400 text-sm">Produção Sustentável (2024)</p>
+          </div>
+        </div>
+      </section>
+
+
       {/* Footer */}
       <footer className="border-t border-slate-700 mt-20 py-8 bg-slate-900/50">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center text-slate-400">
